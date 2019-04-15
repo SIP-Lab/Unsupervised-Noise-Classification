@@ -1,0 +1,4 @@
+See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/linkSuperpoweredExampleArmeabi-v7aDebugSharedLibrary/output.txt for all output for linkSuperpoweredExampleArmeabi-v7aDebugSharedLibrary.
+linking libSuperpoweredExample.so successful.
+
+Finished linkSuperpoweredExampleArmeabi-v7aDebugSharedLibrary, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/linkSuperpoweredExampleArmeabi-v7aDebugSharedLibrary/output.txt.

@@ -1,0 +1,20 @@
+See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainC/output.txt for all output for compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainC.
+compiling FIRFilter.c successful.
+
+compiling Timer.c successful.
+
+compiling audioProcessing.c successful.
+/Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/src/main/jni/audioProcessing.c: In function 'copyArray':
+/Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/src/main/jni/audioProcessing.c:188:11: warning: assignment from incompatible pointer type
+     array = (float *) malloc(1 * sizeof(float *));
+           ^
+
+compiling MelSpectrogram.c successful.
+
+compiling SubbandFeatures.c successful.
+
+compiling Transforms.c successful.
+
+compiling Art2FusionClassifier.c successful.
+
+Finished compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainC, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainC/output.txt.

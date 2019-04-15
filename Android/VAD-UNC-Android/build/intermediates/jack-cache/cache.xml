@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nxt170030/Library/Android/sdk/platforms/android-23/optional/org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="017030d11901291abf8f83a812984276b643ea0f">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-01fa7b21b41b3177c5441da133099a9c6ea4b033.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/.android/build-cache/3ada8381c9d859842e79453344a0c9cb78859949/output/jars/libs/internal_impl-23.4.0.jar"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/internal_impl-23.4.0-114f420d22afb79832efa4f4e6ebb972ee59f771.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/.android/build-cache/3ada8381c9d859842e79453344a0c9cb78859949/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bf86296a92edef9e4d0dc994c7ca392753a98047.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/.android/build-cache/466e4b76928f6421ca33cee142bcc905866a0df4/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-168857735b6cd03d5046e369868d5880d9b5fba7.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/.android/build-cache/5e7bcb801a7a889f000d3e3b8f52341fc81676b4/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-09d4aa1658ed617711d95ddcfa5d27e401086730.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/Library/Android/sdk/platforms/android-23/android.jar"
+        revision="25.0.0"
+        sha1="eee3e49de0e3c71c5f278ba7e4fe847483f9084c">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-891fd3a4432f643d5cdc84dbc37e1cfa39fb4bbd.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/.android/build-cache/f7749a8f7c80235742f35c4d14c5d519e1b0c2f9/output/jars/classes.jar"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d5159600454599da435530c72e7a0d2b4b9f76b7.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-23.4.0-a7d3a60ef410875a03426886f3c0b1b53d8d5fc8.jar" />
+    </item>
+    <item
+        jar="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/libs/libandroid_tensorflow_inference_java.jar"
+        revision="25.0.0"
+        sha1="63aaf9e149e9aa9d44edf8bfc96395a51efa4419">
+        <dex dex="/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/libandroid_tensorflow_inference_java-c9d88f3c8cd010ccf49b23521363cd8941608921.jar" />
+    </item>
+
+</items>

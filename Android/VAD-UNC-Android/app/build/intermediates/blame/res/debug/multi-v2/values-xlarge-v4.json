@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/nxt170030/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/a2b493d4f886db4c1235026aaa51a36c/res/values-xlarge/values-xlarge.xml",
+                    "from": {
+                        "startLines": "4,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,609,673,740,807,873,939",
+                        "endColumns": "76,63,66,66,65,65,54",
+                        "endOffsets": "365,668,735,802,868,934,989"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,196,263,330,396,462",
+                        "endColumns": "76,63,66,66,65,65,54",
+                        "endOffsets": "127,191,258,325,391,457,512"
+                    }
+                }
+            ]
+        }
+    ]
+}

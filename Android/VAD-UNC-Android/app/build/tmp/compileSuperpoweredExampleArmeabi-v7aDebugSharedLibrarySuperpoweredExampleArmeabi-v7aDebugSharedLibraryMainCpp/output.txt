@@ -1,0 +1,6 @@
+See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/compileSuperpoweredExampleArmeabi-v7aDebugSharedLibrarySuperpoweredExampleArmeabi-v7aDebugSharedLibraryMainCpp/output.txt for all output for compileSuperpoweredExampleArmeabi-v7aDebugSharedLibrarySuperpoweredExampleArmeabi-v7aDebugSharedLibraryMainCpp.
+compiling SuperpoweredAndroidAudioIO.cpp successful.
+
+compiling FrequencyDomain.cpp successful.
+
+Finished compileSuperpoweredExampleArmeabi-v7aDebugSharedLibrarySuperpoweredExampleArmeabi-v7aDebugSharedLibraryMainCpp, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/compileSuperpoweredExampleArmeabi-v7aDebugSharedLibrarySuperpoweredExampleArmeabi-v7aDebugSharedLibraryMainCpp/output.txt.

@@ -1,6 +1,0 @@
-See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainCpp/output.txt for all output for compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainCpp.
-compiling SuperpoweredAndroidAudioIO.cpp successful.
-
-compiling FrequencyDomain.cpp successful.
-
-Finished compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainCpp, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/compileSuperpoweredExampleX86DebugSharedLibrarySuperpoweredExampleX86DebugSharedLibraryMainCpp/output.txt.

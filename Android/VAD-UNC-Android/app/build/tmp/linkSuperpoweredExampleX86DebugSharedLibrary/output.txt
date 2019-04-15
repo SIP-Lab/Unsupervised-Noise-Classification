@@ -1,4 +1,0 @@
-See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/linkSuperpoweredExampleX86DebugSharedLibrary/output.txt for all output for linkSuperpoweredExampleX86DebugSharedLibrary.
-linking libSuperpoweredExample.so successful.
-
-Finished linkSuperpoweredExampleX86DebugSharedLibrary, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/VAD-UNC-App/Android/VAD-UNC-Android/app/build/tmp/linkSuperpoweredExampleX86DebugSharedLibrary/output.txt.

@@ -1,0 +1,103 @@
+
+apply plugin: 'com.android.model.application'
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+def superpowered_sdk_path = properties.getProperty('superpowered.dir')
+def dlib_sdk_path = properties.getProperty('dlib.dir')
+
+model {
+    repositories {
+        libs(PrebuiltLibraries) {
+            superpowered { // this is where you declare the "superpowered" static library
+                headers.srcDir "${superpowered_sdk_path}"
+                binaries.withType(StaticLibraryBinary) { // attaching library files to each platform
+                    def platformName = targetPlatform.getName()
+                    if (platformName == "armeabi-v7a") {
+                        staticLibraryFile = file("${superpowered_sdk_path}/libSuperpoweredAndroidarmeabi-v7a.a")
+                    } else if (platformName == "arm64-v8a") {
+                        staticLibraryFile = file("${superpowered_sdk_path}/libSuperpoweredAndroidarm64-v8a.a")
+                    } else if (platformName == "x86") {
+                        staticLibraryFile = file("${superpowered_sdk_path}/libSuperpoweredAndroidX86.a")
+                    } else if (platformName == "x86_64") {
+                        staticLibraryFile = file("${superpowered_sdk_path}/libSuperpoweredAndroidX86_64.a")
+                    }
+                }
+            }
+            DLIB { // this is where you declare the "superpowered" static library
+                headers.srcDir "${dlib_sdk_path}"
+                binaries.withType(SharedLibraryBinary) { // attaching library files to each platform
+                    def platformName = targetPlatform.getName()
+                    if (platformName == "armeabi-v7a") {
+                        sharedLibraryFile = file("../app/src/main/libs/${targetPlatform.getName()}/libdlib.so")
+                    } else if (platformName == "arm64-v8a") {
+                        sharedLibraryFile = file("../app//src/main/libs/${targetPlatform.getName()}/libdlib.so")
+                    } else if (platformName == "x86") {
+                        sharedLibraryFile = file("../app//src/main/libs/${targetPlatform.getName()}/libdlib.so")
+                    } else if (platformName == "x86_64") {
+                        sharedLibraryFile = file("../app//src/main/libs/${targetPlatform.getName()}/libdlib.so")
+                    }
+                }
+            }
+        }
+    }
+
+    android { // main settings for your application
+        compileSdkVersion = 22
+        buildToolsVersion = "26.0.2"
+
+        defaultConfig {
+            applicationId "com.superpowered.frequencydomain"
+            minSdkVersion.apiLevel = 16 // more than 95% of all active Android devices
+            targetSdkVersion.apiLevel = 22
+            versionCode 1
+            versionName "1.0"
+            jackOptions{
+                enabled true
+            }
+        }
+    }
+
+    android.ndk { // your application's native layer parameters
+        moduleName = "SuperpoweredExample"  //"FrequencyDomain"
+        platformVersion = 16
+        stl = "c++_static"
+        CFlags.addAll([" -std=c11", "-O3", "-fsigned-char"])
+        // full optimization, char data type is signed
+        cppFlags.addAll(["-fexceptions", "-std=c++11", "-fsigned-char", "-I${superpowered_sdk_path}".toString()])
+        ldLibs.addAll(["log", "android", "OpenSLES"])
+        // load these libraries: log, android, OpenSL ES (for audio)
+        abiFilters.addAll(["armeabi-v7a", "x86"]) //(["x86"]) for emulator
+        // these platforms cover 99% percent of all Android devices
+    }
+    android.compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android.sources.main.jni {
+        source {
+            srcDir "jni"
+            srcDir "${superpowered_sdk_path}/AndroidIO"
+            //jniLibs.srcDirs = ['libs']
+        }
+
+        dependencies {
+            library "superpowered" linkage "static"
+            // this is where you attach the "superpowered" static library to your app
+            library "DLIB" linkage "shared"
+        }
+    }
+    android.sources.main.jniLibs {
+        source {
+            srcDirs "libs"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    //compile 'com.android.support:appcompat-v7:23.4.0'
+    compile files('libs/libandroid_tensorflow_inference_java.jar')
+}

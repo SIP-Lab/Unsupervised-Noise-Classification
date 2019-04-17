@@ -1,0 +1,78 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/nxt170030/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SuperpoweredExample-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "SuperpoweredExample",
+			"buildCommand" : "/Users/nxt170030/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64 --target SuperpoweredExample",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot  -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/FrequencyDomain.cpp",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/FIRFilter.c",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/MelSpectrogram.c",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/Timer.c",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/Transforms.c",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O2 -fsigned-char -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/audioProcessing.c",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot  -DSuperpoweredExample_EXPORTS -I/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/src/main/jni/src/main/jni -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/nxt170030/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/nxt170030/Desktop/Developer/SuperpoweredSDK/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/nxt170030/Desktop/Developer/IntegratedApp-VAD-OFC/CNN-VAD-Android/app/build/intermediates/cmake/release/obj/x86_64/libSuperpoweredExample.so",
+			"toolchain" : "2855762508085219949"
+		}
+	},
+	"toolchains" : 
+	{
+		"2855762508085219949" : 
+		{
+			"cCompilerExecutable" : "/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/nxt170030/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

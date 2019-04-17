@@ -20,3 +20,12 @@ All material related to our paper is available via the following links:
 ## Getting Started
 
 A [User's Guide](Users-Guide-UnsupervisedNoiseClassification.pdf) is provided with this project which provides all the description required for running the Background Unsupervised Noise Classification on Smartphones.
+
+Requirement
+-------------------
+1. To run the Android version of the Unsupervised Noise Classification app, it is necessary to have Superpowered SDK which can be obtained from the following link: https://superpowered.com.
+Then, adding the path of superpowered in gradle/local.properties:
+    
+        superpowered.dir = /.../SuperpoweredSDK/Superpowered
+
+2. To run the iOS version of the Unsupervised Noise Classification app, it is necessary to have Tensorflow C++ API to run voice activity detection (VAD). The Tensorflow API can be downloaded or cloned from following link: https://www.tensorflow.org/install/

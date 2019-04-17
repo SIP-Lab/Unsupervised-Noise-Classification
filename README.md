@@ -1,7 +1,7 @@
 # Background Unsupervised Noise Classification on Smartphones
 
 This GitHub repository is the code accompaniment of the following paper:
-> **A Real-Time Smartphone A pp for Unsupervised Noise Classification in Realistic Audio Environments**<br>
+> **A Real-Time Smartphone App for Unsupervised Noise Classification in Realistic Audio Environments**<br>
 > Nasim Alamdari, and Nasser Kehtarnavaz, The University of Texas at Dallas<br>
 > https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8662052<br>
 >

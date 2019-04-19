@@ -19,7 +19,7 @@ All material related to our paper is available via the following links:
 
 ## Getting Started
 
-A [User's Guide](Users-Guide-UnsupervisedNoiseClassification.pdf) is provided with this project which provides all the description required for running the Background Unsupervised Noise Classification on Smartphones.
+A [User's Guide](Users-Guide-UnsupervisedNoiseClassificationArt2.pdf) is provided with this project which provides all the description required for running the Background Unsupervised Noise Classification on Smartphones.
 
 Requirement
 -------------------

@@ -30,8 +30,8 @@ Then, adding the path of superpowered in gradle/local.properties:
 2. To run the iOS version of the Unsupervised Noise Classification app, it is necessary to have Tensorflow C++ API to run voice activity detection (VAD). The Tensorflow API can be downloaded or cloned from following link: https://www.tensorflow.org/install/
 
 
-## Licence and citations
+## Licence and Citation
 The Code is licensed under a MIT license.
 
 For any utilization of the content of this repository, the following paper is expected to be cited by the user:
-1. N. Alamdari, and N. Kehtarnavaz, “A Real-Time Smartphone App for Unsupervised Noise Classification in Realistic Audio Environments,” to appear in Proceedings of IEEE International Conference on Consumer Electronics, Las Vegas, NV, Jan 2019.
+1. N. Alamdari, and N. Kehtarnavaz, “A Real-Time Smartphone App for Unsupervised Noise Classification in Realistic Audio Environments,” Proceedings of IEEE International Conference on Consumer Electronics, Las Vegas, NV, Jan 2019.

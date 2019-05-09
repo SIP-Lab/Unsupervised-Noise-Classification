@@ -1,4 +1,4 @@
-# Background Unsupervised Noise Classification on Smartphones
+# Unsupervised Background Noise Classification on Smartphones
 
 This GitHub repository is the code accompaniment of the following paper:
 > **A Real-Time Smartphone App for Unsupervised Noise Classification in Realistic Audio Environments**<br>
